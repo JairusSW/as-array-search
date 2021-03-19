@@ -17,7 +17,7 @@
 ```js
 import { search } from 'as-array-search'
 
-const toSearch = ['Hello World', 'This is Awesome', ['The World Is Crazy', 'Haha']]
+const toSearch = ['Hello World', 'This is Awesome', 'The World Is Crazy']
 
 const results = search(toSearch, 'world')
 //=> ['Hello World', 'The World Is Crazy']
